@@ -43,6 +43,15 @@ class Cv extends StatelessWidget {
                     fontSize: 13,
                     fontWeight: FontWeight.bold,
                   ),
+                
+                ),
+                  Text(
+                  "Mobile Developer",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 13,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ],
             ),
