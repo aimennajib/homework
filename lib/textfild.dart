@@ -40,27 +40,17 @@ class _TextfildState extends State<Textfild> {
             TextField(
               decoration: InputDecoration(
                 labelText: ' the Name',
+
                 //  hintText:'ahmed' ,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
               ),
-              controller: _controller2,
+              controller: _controller1,
               readOnly: true,
             ),
             SizedBox(height: 20),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Color.fromARGB(255, 34, 59, 102),
-              ),
-              onPressed: () {
-                setState(() {
-                  _controller2.text = _controller1.text;
-                });
-              },
 
-              child: Text('Submit', style: TextStyle(color: Colors.white)),
-            ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 backgroundColor: Color.fromARGB(255, 34, 59, 102),
