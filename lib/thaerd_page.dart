@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class Towpage1 extends StatefulWidget {
+class ThaerdPage extends StatefulWidget {
   final String name;
 
-  const Towpage1({super.key, required this.name});
+  const ThaerdPage({super.key, required this.name});
 
   @override
-  State<Towpage1> createState() => _Towpage1State();
+  State<ThaerdPage> createState() => _ThaerdPageState();
 }
 
-class _Towpage1State extends State<Towpage1> {
+class _ThaerdPageState extends State<ThaerdPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tow Page1', style: TextStyle(color: Colors.white)),
+        title: Text('ThaerdPage', style: TextStyle(color: Colors.white)),
         backgroundColor: Color.fromARGB(255, 34, 59, 102),
       ),
       body: Column(

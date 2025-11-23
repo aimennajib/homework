@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tasks/tow_page.dart';
-import 'package:tasks/tow_page1.dart';
+import 'package:tasks/secand_page.dart';
+import 'package:tasks/thaerd_page.dart';
 
 class Textfild extends StatefulWidget {
   const Textfild({super.key});
@@ -59,11 +59,11 @@ class _TextfildState extends State<Textfild> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => Towpage(name: _controller1.text),
+                    builder: (context) => SecandPage(name: _controller1.text),
                   ),
                 );
               },
-              child: Text('Navgitor', style: TextStyle(color: Colors.white)),
+              child: Text('Secand Page', style: TextStyle(color: Colors.white)),
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
@@ -73,11 +73,11 @@ class _TextfildState extends State<Textfild> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => Towpage1(name: _controller1.text),
+                    builder: (context) => ThaerdPage(name: _controller1.text),
                   ),
                 );
               },
-              child: Text('Navgitor1', style: TextStyle(color: Colors.white)),
+              child: Text('Thaerd Page', style: TextStyle(color: Colors.white)),
             ),
           ],
         ),
